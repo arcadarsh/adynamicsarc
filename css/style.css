@@ -143,13 +143,9 @@
     rgba(14, 30, 37, 0.22) 0px 2px 16px 0px;
 }
 
-.border-r8{
+.border-r8 {
   border-radius: 8px;
 }
-.Features{
-  
-}
-
 
 /*** Facts ***/
 @media (min-width: 991.98px) {
@@ -360,4 +356,62 @@
 .medium-icon {
   font-size: 40px !important;
   margin-bottom: 15px !important;
+}
+
+/* demo-class section */
+
+.imSection-bg {
+  background-color: #f0f2f4c3;
+}
+
+.demo-class-card {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.demo-class-textarea {
+  min-width: 60%;
+  width: 100%;
+  /* background-color: rgb(240, 76, 76); */
+  flex: 0 0 1;
+}
+
+.demo-class-joinBtn {
+  background-color: var(--primary);
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+
+.demo-class-imgarea {
+  flex: 0 0 1;
+  min-width: 40%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.demo-class-videoImg {
+  width: 87%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.demo-class-imgWrapper {
+  position: relative;
+}
+
+.demo-class-imgWrapper a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1200px) {
+  .demo-class-imgWrapper a {
+    left: 45%;
+  }
 }
