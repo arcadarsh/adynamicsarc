@@ -1,5 +1,5 @@
-.hero {
-  background-color: #49aaaa16;
+.hero,.Features {
+  background-color: #f0f2f4c3;
 }
 
 .hero img {
@@ -29,8 +29,8 @@
   right: -20px;
   z-index: -1212;
   scale: 1.1;
-  background: rgb(124, 207, 207);
-  opacity: 35%;
+  background: #49aaaa;
+  /* opacity: 35%; */
   height: 100%;
   border-radius: 39% 61% 70% 30% / 30% 30% 70% 70%;
 }
@@ -48,6 +48,7 @@
   color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 8px;
 }
 .hero-btn:first-child {
   background-color: #49aaaa;

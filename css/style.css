@@ -143,6 +143,14 @@
     rgba(14, 30, 37, 0.22) 0px 2px 16px 0px;
 }
 
+.border-r8{
+  border-radius: 8px;
+}
+.Features{
+  
+}
+
+
 /*** Facts ***/
 @media (min-width: 991.98px) {
   .facts {
@@ -159,6 +167,7 @@
 
 .courses-item {
   background-color: white;
+  border-radius: 8px;
 }
 
 .courses-item .courses-overlay {
@@ -170,10 +179,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: rgba(255, 255, 255, 0.655);
   overflow: hidden;
   opacity: 0;
   transition: 0.5s;
+}
+
+.courses-btn-bg {
+  background-color: #49aaaa;
+  color: white;
 }
 
 .courses-item:hover .courses-overlay {
