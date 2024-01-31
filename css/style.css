@@ -249,6 +249,11 @@
   font-weight: 500;
 }
 
+.demo-class-joinBtn:hover {
+  background-color: #75d5d5;
+  color: white;
+}
+
 .demo-class-imgarea {
   flex: 0 0 1;
   min-width: 40%;
