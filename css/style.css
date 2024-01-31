@@ -40,6 +40,11 @@
 }
 
 /*** Button ***/
+
+.navbar-toggleBtn {
+  border: none;
+}
+
 .btn {
   font-weight: 500;
   transition: 0.5s;
@@ -185,6 +190,10 @@
   overflow: hidden;
   opacity: 0;
   transition: 0.5s;
+}
+
+.courses-item a {
+  border-radius: 6px;
 }
 
 .courses-btn-bg {
