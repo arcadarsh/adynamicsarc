@@ -162,18 +162,28 @@
 
 /*** Facts ***/
 
-.fact-img-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @media (min-width: 991.98px) {
   .facts {
     position: relative;
     margin-top: -45px;
     z-index: 1;
   }
+}
+
+/* Features */
+
+.features-side-imgSection {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.features-side-img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+  margin-left: 3rem;
 }
 
 /*** Courses ***/
