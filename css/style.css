@@ -187,9 +187,6 @@
 }
 
 /*** Courses ***/
-.courses {
-  min-height: 100vh;
-}
 
 .courses-item {
   border-radius: 8px;
