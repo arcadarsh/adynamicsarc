@@ -1,0 +1,32 @@
+.hero-btn-course-details {
+  background-color: #49aaaa;
+  color: rgba(255, 255, 255, 0.851);
+  font-weight: 800;
+  border: none;
+}
+.hero-btn-course-details:hover {
+  background-color: #75d5d5;
+  color: white;
+}
+
+.course-feature-head {
+  color: #255252;
+}
+
+.course-feature-value {
+  font-weight: 500;
+}
+
+.course-feature-wrapper {
+  background-color: #f0f2f4db;
+}
+
+.imPart-bg {
+  background-color: #f0f2f4db;
+}
+
+@media (min-width: 1400px) {
+  .course-feature-wrapper {
+    margin: 0 2rem;
+  }
+}
